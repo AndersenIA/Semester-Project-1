@@ -1,0 +1,95 @@
+/***********************************************************************************/
+/***********************************************************************************/
+/*************************         GENERAL         *********************************/
+/***********************************************************************************/
+/***********************************************************************************/
+
+* {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Gaegu", sans-serif;
+  overflow-x: hidden;
+  color: #153131;
+}
+
+:link {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+/***********************************************************************************/
+/***********************************************************************************/
+/*************************       NAVIGATION        *********************************/
+/***********************************************************************************/
+/***********************************************************************************/
+
+/***********************************************************************************/
+/***********************************************************************************/
+/*************************         HEADER          *********************************/
+/***********************************************************************************/
+/***********************************************************************************/
+
+.home-header {
+  background-color: #57e2e5;
+  display: flex;
+  height: 950px;
+  border: 1px solid red;
+  justify-content: space-between;
+  padding-inline: 4.68rem;
+  padding-top: 5rem;
+}
+
+.header-txt-div {
+  display: block;
+  margin-top: 20rem;
+}
+
+.home-h1 {
+  font-size: 5rem;
+  font-weight: 100;
+}
+
+.home-header-p {
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+
+.header-txt-div {
+  border: 1px solid red;
+}
+
+.header-img-div {
+  align-self: center;
+  position: relative;
+  height: 40rem;
+  width: 40rem;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 6px solid #e55a57;
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.3);
+  background-image: url(Assets/images/billetto-editorial-334686.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 90% 20%;
+}
+
+/*
+.home-header-img {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+  */
