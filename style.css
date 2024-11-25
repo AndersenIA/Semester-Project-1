@@ -31,6 +31,45 @@ li {
 /***********************************************************************************/
 /***********************************************************************************/
 
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  background-color: rgba(87, 227, 229, 0.3);
+  border-bottom: 2px solid rgba(21, 49, 49, 0.25);
+  z-index: 1000;
+}
+
+.logo-name-div {
+  display: flex;
+  align-items: center;
+  padding-left: 4.68rem;
+}
+
+.nav-logo {
+  display: inline-block;
+  width: 2rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #153131;
+}
+
+.nav-link:last-child {
+  padding-right: 4.68rem;
+}
+
+.nav-link:hover {
+  color: #e55a57;
+}
+
+.nav-link:active {
+  color: #e55a57;
+}
+
 /***********************************************************************************/
 /***********************************************************************************/
 /*************************         HEADER          *********************************/
@@ -41,7 +80,6 @@ li {
   background-color: #57e2e5;
   display: flex;
   height: 950px;
-  border: 1px solid red;
   justify-content: space-between;
   padding-inline: 4.68rem;
   padding-top: 5rem;
@@ -60,10 +98,6 @@ li {
 .home-header-p {
   margin-top: 5rem;
   font-size: 2rem;
-}
-
-.header-txt-div {
-  border: 1px solid red;
 }
 
 .header-img-div {
@@ -93,3 +127,54 @@ li {
   transform: translate(-50%, -50%);
 }
   */
+
+/***********************************************************************************/
+/***********************************************************************************/
+/*************************         CLOUD           *********************************/
+/***********************************************************************************/
+/***********************************************************************************/
+
+.dividing-cloud {
+  display: flex;
+}
+
+.cloud1 {
+  border: 1px solid red;
+  width: 100vw;
+  height: 10rem;
+}
+
+.ball {
+  position: absolute;
+  background-color: white;
+}
+
+.ball1 {
+  width: 8rem;
+  height: 8rem;
+  border: 1px solid red;
+}
+
+.ball2 {
+  width: 8rem;
+  height: 8rem;
+  border: 1px solid green;
+}
+
+/***********************************************************************************/
+/***********************************************************************************/
+/*************************     SECTION INDEX       *********************************/
+/***********************************************************************************/
+/***********************************************************************************/
+
+.home-section-1 {
+  display: flex;
+  padding-inline: 4.68rem;
+  padding-top: 10rem;
+}
+
+.section-img1 {
+  width: 80%;
+  height: auto;
+  border-radius: 45px 100px 45px 100px;
+}
