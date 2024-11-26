@@ -12,8 +12,10 @@
 
 body {
   font-family: "Gaegu", sans-serif;
+  font-size: 2rem;
   overflow-x: hidden;
   color: #153131;
+  width: 100vw;
 }
 
 :link {
@@ -37,7 +39,7 @@ li {
   justify-content: space-between;
   align-items: center;
   width: 100vw;
-  background-color: rgba(87, 227, 229, 0.3);
+  background-color: rgba(87, 227, 229, 0.95);
   border-bottom: 2px solid rgba(21, 49, 49, 0.25);
   z-index: 1000;
 }
@@ -56,6 +58,10 @@ li {
 .nav-link {
   font-size: 1.2rem;
   color: #153131;
+}
+
+.active-nav {
+  color: #e55a57;
 }
 
 .nav-link:last-child {
@@ -128,6 +134,42 @@ li {
 }
   */
 
+.circle-1 {
+  position: absolute;
+  top: 5rem;
+  left: 25rem;
+  height: 13rem;
+  width: 13rem;
+  border-radius: 50%;
+  background-color: #45cb85;
+  z-index: 100;
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+.circle-2 {
+  position: absolute;
+  top: 47rem;
+  right: 30rem;
+  height: 13rem;
+  width: 13rem;
+  border-radius: 50%;
+  background-color: #e55a57;
+  z-index: 100;
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+.circle-3 {
+  position: absolute;
+  top: 8rem;
+  right: 25rem;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  background-color: #45cb85;
+  z-index: 100;
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
 /***********************************************************************************/
 /***********************************************************************************/
 /*************************         CLOUD           *********************************/
@@ -135,30 +177,103 @@ li {
 /***********************************************************************************/
 
 .dividing-cloud {
+  position: absolute;
+  top: 990px;
   display: flex;
+  height: 20rem;
+}
+
+.secound-cloud {
+  top: 2310px;
+}
+
+.third-cloud {
+  top: 3710px;
 }
 
 .cloud1 {
-  border: 1px solid red;
   width: 100vw;
   height: 10rem;
+  display: flex;
+}
+
+.cloud2 {
+  width: 100vw;
+  height: 10rem;
+  display: flex;
+  position: absolute;
+  left: 26rem;
+}
+
+.cloud3 {
+  width: 100vw;
+  height: 10rem;
+  display: flex;
+  position: absolute;
+  left: 51rem;
+}
+
+.cloud4 {
+  width: 100vw;
+  height: 10rem;
+  display: flex;
+  position: absolute;
+  left: 76rem;
+}
+
+.cloud5 {
+  width: 100vw;
+  height: 10rem;
+  display: flex;
+  position: absolute;
+  left: 100rem;
 }
 
 .ball {
-  position: absolute;
   background-color: white;
+  align-self: center;
+  position: absolute;
+}
+
+.blue-ball {
+  background-color: #57e2e5;
+  align-self: center;
+  position: absolute;
 }
 
 .ball1 {
   width: 8rem;
   height: 8rem;
-  border: 1px solid red;
+  border-radius: 50%;
+  left: -2rem;
 }
 
 .ball2 {
-  width: 8rem;
-  height: 8rem;
-  border: 1px solid green;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  left: 3rem;
+}
+
+.ball3 {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  left: 10rem;
+}
+
+.ball4 {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  left: 13rem;
+}
+
+.ball5 {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  left: 22rem;
 }
 
 /***********************************************************************************/
@@ -171,10 +286,57 @@ li {
   display: flex;
   padding-inline: 4.68rem;
   padding-top: 10rem;
+  padding-bottom: 15rem;
+  height: 1000px;
 }
 
-.section-img1 {
-  width: 80%;
-  height: auto;
-  border-radius: 45px 100px 45px 100px;
+.img-div {
+  width: 40rem;
+  height: 60rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 20%;
+  border-radius: 75px 170px 75px 170px;
+}
+
+.img-div1 {
+  background-image: url(Assets/images/markus-spiske-197281.jpg);
+}
+
+.section-p {
+  padding-top: 20rem;
+  width: 95%;
+  padding-inline: 10rem;
+}
+
+.section-txt {
+  padding-inline: 10rem;
+  padding-top: 10rem;
+}
+
+.home-p {
+  padding-top: 5rem;
+}
+
+.section-img-div {
+  display: flex;
+  justify-content: center;
+}
+
+.home-section-2 {
+  display: flex;
+  padding-inline: 4.68rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: #57e2e5;
+  height: 1000px;
+}
+
+.img-div2 {
+  background-image: url(Assets/images/mammoth-1257288_1920.jpg);
+}
+
+.section-img-div {
+  display: flex;
+  justify-content: center;
 }
