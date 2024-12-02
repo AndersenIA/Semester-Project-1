@@ -115,10 +115,13 @@ li {
   border-radius: 50%;
   border: 6px solid #e55a57;
   box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.3);
-  background-image: url(Assets/images/billetto-editorial-334686.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 90% 20%;
+}
+
+.index-header {
+  background-image: url(Assets/images/billetto-editorial-334686.jpg);
 }
 
 /*
@@ -339,4 +342,81 @@ li {
 .section-img-div {
   display: flex;
   justify-content: center;
+}
+
+/***********************************************************************************/
+/***********************************************************************************/
+/*************************         FOOTER          *********************************/
+/***********************************************************************************/
+/***********************************************************************************/
+
+.footer {
+  margin-top: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+
+.footer-img {
+  height: 10rem;
+  padding-right: 10rem;
+}
+
+.footer-menu-link {
+  font-size: 1rem;
+  color: #153131;
+  padding-right: 5rem;
+}
+
+.email-label {
+  color: #57e2e5;
+}
+
+.email-input {
+  font-size: 1rem;
+  padding-inline: 0.5rem;
+  padding-block: 0.3rem;
+  width: 20rem;
+  border: 1px solid #e55a57;
+  border-radius: 8px;
+  font-family: "Gaegu", sans-serif;
+}
+
+.submit-btn {
+  font-size: 1rem;
+  font-family: "Gaegu", sans-serif;
+  padding-inline: 0.8rem;
+  padding-block: 0.3rem;
+  background-color: #e55a57;
+  border: 1px solid #e55a57;
+  border-radius: 8px;
+  margin-left: -2rem;
+  cursor: pointer;
+}
+
+.submit-btn:active {
+  background-color: white;
+}
+
+/***********************************************************************************/
+/***********************************************************************************/
+/*************************    EXHIBITIONS.html     *********************************/
+/***********************************************************************************/
+/***********************************************************************************/
+
+.exhibitions-header {
+  background-image: url(Assets/images/roberto-nickson-396152.jpg);
+}
+
+.img-div-exhibitions1 {
+  background-image: url(Assets/images/andrew-ruiz-348421.jpg);
+}
+
+.img-div-exhibitions2 {
+  background-image: url(Assets/images/skeleton-414543_1920.jpg);
+}
+
+.img-div-exhibitions3 {
+  background-image: url(Assets/images/samuel-zeller-113381.jpg);
 }
