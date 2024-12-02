@@ -194,6 +194,26 @@ li {
   top: 3710px;
 }
 
+.fourth-cloud {
+  top: 5100px;
+}
+
+.fifth-cloud {
+  top: 6400px;
+}
+
+.sixth-cloud {
+  top: 7900px;
+}
+
+.fourth-cloud-events {
+  top: 5200px;
+}
+
+.secound-cloud-visit {
+  top: 2000px;
+}
+
 .cloud1 {
   width: 100vw;
   height: 10rem;
@@ -300,6 +320,7 @@ li {
   background-repeat: no-repeat;
   background-position: 30% 20%;
   border-radius: 75px 170px 75px 170px;
+  border: 5px solid #e55a57;
 }
 
 .img-div1 {
@@ -356,6 +377,10 @@ li {
   align-items: center;
   justify-content: center;
   height: 600px;
+}
+
+.blue-footer {
+  background-color: #57e2e5;
 }
 
 .footer-img {
@@ -419,4 +444,70 @@ li {
 
 .img-div-exhibitions3 {
   background-image: url(Assets/images/samuel-zeller-113381.jpg);
+}
+
+.img-div-exhibitions4 {
+  background-image: url(Assets/images/samuel-zeller-158996.jpg);
+}
+
+.img-div-exhibitions5 {
+  background-image: url(Assets/images/william-bout-264826.jpg);
+}
+
+/***********************************************************************************/
+/***********************************************************************************/
+/*************************       EVENTS.html       *********************************/
+/***********************************************************************************/
+/***********************************************************************************/
+
+.img-div-events1 {
+  background-image: url(Assets/images/celso-405219.jpg);
+}
+
+.img-div-events2 {
+  background-image: url(Assets/images/mammoth-1257288_1920.jpg);
+}
+
+.img-div-events3 {
+  background-image: url(Assets/images/scientific-2040795_1280.jpg);
+}
+
+/***********************************************************************************/
+/***********************************************************************************/
+/*************************       VISIT.html        *********************************/
+/***********************************************************************************/
+/***********************************************************************************/
+
+.visit-header {
+  background-image: url(Assets/images/mavis-cw-164128.jpg);
+}
+
+.visit-section {
+  height: 500px;
+}
+.visit-txt {
+  padding-right: 10rem;
+}
+
+/***********************************************************************************/
+/***********************************************************************************/
+/*************************      INVOLVED.html      *********************************/
+/***********************************************************************************/
+/***********************************************************************************/
+
+.involved-header {
+  background-image: url(Assets/images/scott-webb-102825.jpg);
+}
+
+.img-div-involved1 {
+  background-image: url(Assets/images/lab-512503_1920.jpg);
+}
+
+.img-div-involved2 {
+  background-image: url(Assets/images/people-219985_1280.jpg);
+}
+
+.img-div-involved3 {
+  background-image: url(Assets/images/billetto-editorial-334686.jpg);
+  background-position: 90% 20%;
 }
