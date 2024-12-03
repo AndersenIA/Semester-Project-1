@@ -511,3 +511,78 @@ li {
   background-image: url(Assets/images/billetto-editorial-334686.jpg);
   background-position: 90% 20%;
 }
+
+/***********************************************************************************/
+/***********************************************************************************/
+/*************************      EXPLORE.html       *********************************/
+/***********************************************************************************/
+/***********************************************************************************/
+
+.header-top-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding-bottom: 8rem;
+}
+
+.header-btm-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+}
+
+.teachers-div {
+  display: flex;
+  transition: all 0.3s ease-in-out;
+}
+
+.teachers-div:hover {
+  transform: scale(1.2);
+}
+
+.kids-div {
+  display: flex;
+  transition: all 0.3s ease-in-out;
+}
+
+.kids-div:hover {
+  transform: scale(1.2);
+}
+
+.researchers-div {
+  display: flex;
+  transition: all 0.3s ease-in-out;
+}
+
+.researchers-div:hover {
+  transform: scale(1.2);
+}
+
+.explore-txt {
+  color: #153131;
+}
+
+.explore-header-img {
+  height: 20rem;
+  width: 20rem;
+  overflow: hidden;
+  border: 6px solid #e55a57;
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 90% 20%;
+}
+
+.teacher-img {
+  background-image: url(Assets/images/luke-ellis-craven-400722.jpg);
+}
+
+.kids-img {
+  background-image: url(Assets/images/reading-2762010_1280.jpg);
+}
+
+.researchers-img {
+  background-image: url(Assets/images/people-219985_1280.jpg);
+}
