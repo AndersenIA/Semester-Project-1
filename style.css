@@ -586,3 +586,83 @@ li {
 .researchers-img {
   background-image: url(Assets/images/people-219985_1280.jpg);
 }
+
+/***********************************************************************************/
+/***********************************************************************************/
+/*************************       KIDS.html         *********************************/
+/***********************************************************************************/
+/***********************************************************************************/
+
+.explore-p {
+  padding-right: 50rem;
+  padding-top: 5rem;
+}
+
+.explore-cloud {
+  top: 1500px;
+}
+
+.explore-header {
+  display: flex;
+  justify-content: normal;
+}
+
+.heading-img-div {
+  padding-top: 5rem;
+  display: flex;
+  align-content: space-between;
+}
+
+.explore-heading-img {
+  height: 20rem;
+  width: 20rem;
+  overflow: hidden;
+  border: 6px solid #e55a57;
+  border-radius: 20px 70px 20px 70px;
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(Assets/images/teacher-2816112.jpg);
+  margin-left: 50rem;
+}
+
+.explore-header {
+  flex-direction: column;
+  height: 1500px;
+}
+
+.back-btn {
+  color: #153131;
+}
+
+.back-btn:hover {
+  color: #e55a57;
+}
+
+/***********************************************************************************/
+/***********************************************************************************/
+/*************************     TEACHERS.html       *********************************/
+/***********************************************************************************/
+/***********************************************************************************/
+
+.teacher-page-img {
+  background-image: url(Assets/images/mavis-cw-164128.jpg);
+}
+
+/***********************************************************************************/
+/***********************************************************************************/
+/*************************    RESEARCHERS.html     *********************************/
+/***********************************************************************************/
+/***********************************************************************************/
+
+.researchers-page-img {
+  background-image: url(Assets/images/roberto-nickson-396152.jpg);
+}
+
+.researchers-page {
+  height: 1000px;
+}
+
+.researchers-cloud {
+  top: 1000px;
+}
