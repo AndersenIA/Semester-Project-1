@@ -1,0 +1,106 @@
+/***********************************************************************************/
+/***********************************************************************************/
+/*************************        MOBILE           *********************************/
+/***********************************************************************************/
+/***********************************************************************************/
+
+/***********************************************************************************/
+/***********************************************************************************/
+/*************************     MEDIA QUERIES       *********************************/
+/***********************************************************************************/
+/***********************************************************************************/
+
+@media (max-width: 2050px) {
+  .dividing-cloud {
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+  .img-div {
+    height: 50rem;
+    width: 30rem;
+  }
+
+  .home-p {
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 1305px) {
+  .section-p {
+    font-size: 1.5rem;
+  }
+
+  .home-p {
+    font-size: 1.5rem;
+  }
+
+  .img-div {
+    height: 40rem;
+    width: 20rem;
+  }
+
+  .circle-1,
+  .circle-2,
+  .circle-3 {
+    display: none;
+  }
+
+  .header-img-div {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .nav-name {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .home-section-1,
+  .home-section-2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .home-section-2 {
+    align-content: flex-end;
+  }
+
+  .img-div {
+    height: 30rem;
+    width: 20rem;
+  }
+
+  .header-img-div {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .nav-name {
+    font-size: 1rem;
+  }
+
+  .header-txt-div {
+    margin-top: 3rem;
+  }
+
+  .header-img-div {
+    top: -20rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-img-div {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .header-txt-div {
+    margin-top: 0rem;
+  }
+}
