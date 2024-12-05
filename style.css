@@ -181,9 +181,12 @@ li {
 
 .dividing-cloud {
   position: absolute;
-  top: 990px;
+  top: 890px;
   display: flex;
+  align-items: center;
   height: 20rem;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .secound-cloud {
@@ -191,15 +194,15 @@ li {
 }
 
 .third-cloud {
-  top: 3710px;
+  top: 3610px;
 }
 
 .fourth-cloud {
-  top: 5100px;
+  top: 5000px;
 }
 
 .fifth-cloud {
-  top: 6400px;
+  top: 6300px;
 }
 
 .sixth-cloud {
@@ -207,11 +210,11 @@ li {
 }
 
 .fourth-cloud-events {
-  top: 5200px;
+  top: 5100px;
 }
 
 .secound-cloud-visit {
-  top: 2000px;
+  top: 1900px;
 }
 
 .cloud1 {
@@ -602,7 +605,7 @@ li {
 }
 
 .explore-cloud {
-  top: 1500px;
+  top: 1400px;
 }
 
 .explore-header {
@@ -667,5 +670,5 @@ li {
 }
 
 .researchers-cloud {
-  top: 1000px;
+  top: 900px;
 }
