@@ -74,12 +74,6 @@
 /*************************     MEDIA QUERIES       *********************************/
 /***********************************************************************************/
 /***********************************************************************************/
-/*
-@media (max-width: 2050px) {
-  .dividing-cloud {
-    display: none;
-  }
-}*/
 
 @media (max-width: 1440px) {
   .img-div {
@@ -95,6 +89,14 @@
 @media (max-width: 1305px) {
   .section-p {
     font-size: 1.5rem;
+  }
+
+  .header-txt-div {
+    margin-top: 2rem;
+  }
+
+  .header-img-div {
+    top: -20rem;
   }
 
   .home-p {
@@ -146,14 +148,6 @@
   .nav-name {
     font-size: 1rem;
   }
-
-  .header-txt-div {
-    margin-top: 3rem;
-  }
-
-  .header-img-div {
-    top: -20rem;
-  }
 }
 
 @media (max-width: 768px) {
@@ -184,5 +178,21 @@
   .section-txt {
     padding-inline: 0rem;
     padding-top: 0rem;
+  }
+
+  .footer-img {
+    padding-right: 2rem;
+  }
+
+  .email-label {
+    font-size: 1rem;
+  }
+
+  .email-input {
+    width: 10rem;
+  }
+
+  .footer-menu-link {
+    padding-right: 0rem;
   }
 }
