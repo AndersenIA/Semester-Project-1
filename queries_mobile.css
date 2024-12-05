@@ -84,6 +84,10 @@
   .home-p {
     padding-bottom: 2rem;
   }
+
+  .explore-heading-img {
+    margin-left: 25rem;
+  }
 }
 
 @media (max-width: 1305px) {
@@ -148,6 +152,19 @@
   .nav-name {
     font-size: 1rem;
   }
+
+  .explore-header-img {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .explore-heading-img {
+    margin-left: 10rem;
+  }
+
+  .explore-p {
+    padding-top: 2rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -194,5 +211,36 @@
 
   .footer-menu-link {
     padding-right: 0rem;
+  }
+
+  .header-options {
+    padding-top: 5rem;
+  }
+
+  .explore-heading-img {
+    display: none;
+  }
+}
+
+@media (max-width: 652px) {
+  .header-top-div {
+    justify-content: flex-start;
+  }
+
+  .header-btm-div {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .kids-div {
+    padding-bottom: 6rem;
+  }
+
+  .explore-header-img {
+    margin-left: 5rem;
+  }
+
+  .explore-p {
+    font-size: 1.8rem;
   }
 }

@@ -532,6 +532,11 @@ li {
   padding-bottom: 8rem;
 }
 
+.explore-main-header {
+  display: flex;
+  justify-content: center;
+}
+
 .header-btm-div {
   display: flex;
   justify-content: space-around;
@@ -600,7 +605,6 @@ li {
 /***********************************************************************************/
 
 .explore-p {
-  padding-right: 50rem;
   padding-top: 5rem;
 }
 
