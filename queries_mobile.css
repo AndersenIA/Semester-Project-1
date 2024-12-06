@@ -244,3 +244,40 @@
     font-size: 1.8rem;
   }
 }
+
+@media (max-width: 570px) {
+  .home-p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .submit-btn {
+    margin-left: 0rem;
+  }
+
+  .img-div {
+    height: 23rem;
+    width: 17rem;
+  }
+
+  .home-h1 {
+    font-size: 3rem;
+  }
+
+  .home-header-p {
+    font-size: 1.3rem;
+  }
+
+  .section-p {
+    font-size: 1.3rem;
+  }
+
+  .explore-heading {
+    font-size: 3rem;
+  }
+
+  .explore-p {
+    font-size: 1.3rem;
+  }
+}
