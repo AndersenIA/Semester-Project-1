@@ -400,6 +400,10 @@ li {
   padding-right: 5rem;
 }
 
+.footer-menu-link:hover {
+  color: #e55a57;
+}
+
 .email-label {
   color: #57e2e5;
 }
